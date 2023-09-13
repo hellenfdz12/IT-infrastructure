@@ -1,1 +1,3 @@
 # IT-infrastructure
+
+The current project stage involves setting up DHCP, DNS, FreeIPA, and service monitoring for two separate sites and establishing a secure connection between them using IPSec. In a previous stage, both sites were simulated within the same ESXi, but this time, they are on different ESXi hosts. DNS services will be accessible to users from both sites, and DHCP is used for automatic IP addressing on the LAN. FreeIPA is used for managing user information. The project includes online learning (Moodle), online storage (Nextcloud), and online support (osTicket) services. Monitoring is done for DNS, FreeIPA, online services, and the database using php server monitor. Security measures, such as traffic control, are implemented using Iptables.
