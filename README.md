@@ -1,3 +1,3 @@
-# Design and implementation of an IT Software Designed Data Center arquitecture, infrastructure and services
+# Design and implementation of an IT Software Designed Data Center architecture, infrastructure and services
 
 The current project stage involves emulating setting up two geographically different sites with different ESXi hosts. Implementing DHCP, DNS, FreeIPA, and service monitoring for the two separate sites and establishing a secure connection between them using IPSec. DNS services will be accessible to users from both sites, and DHCP is used for automatic IP addressing on the LAN. FreeIPA is used for managing user information. The project includes online learning (Moodle), online storage (Nextcloud), and online support (osTicket) services. Monitoring is done for DNS, FreeIPA, online services, and the database using php server monitor. Security measures, such as traffic control, are implemented using Iptables.
